@@ -1,0 +1,94 @@
+body {
+    background: rgba(245, 245, 245, 0);
+    color: black;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+il {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: rgb(179, 179, 179);
+    color:whitesmoke;
+    padding: 8px 15px;
+    display: inline;
+    border-radius: 100px;
+}
+il:hover {
+    background: rgb(206, 206, 206);
+}
+li {
+    display:inline;
+    padding: 20px 30px;
+    margin: 0;
+}
+.quote1 {
+    padding: 100px 130px;
+}
+.logo1 {
+    position: absolute; top: 150px;  left: 900px;
+    background-image: url("../images/box.png");
+    box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+.quote2 {
+    padding: 0px 130px;
+}
+.siliconhills {
+    background-image: url("../images/siliconhills.png");
+    background-repeat: no-repeat;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-size: 100%;
+    height: 800px;
+    width: 800px;
+    text-indent: -99999px;
+    display: inline-block;
+}
+/*Search Bar*/
+.search-container {
+    display: flex;
+    padding: 0px 130px;
+    padding-right: 750px;
+}
+
+input[type="text"] {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    flex-grow: 1;
+}
+
+button {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 100px;
+    background-color: rgb(146, 144, 144);
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+#searchResults {
+    margin-top: 20px;
+}
+
+.search-item {
+    margin-bottom: 8px;
+}
+/*Search Bar*/
