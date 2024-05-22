@@ -32,7 +32,7 @@ li {
 }
 .logo1 {
     position: absolute; top: 150px;  left: 900px;
-    background-image: url("../images/box.png");
+    background-image: url("images/box.png");
     box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
     background-size: 250px;
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@ li {
     padding: 0px 130px;
 }
 .siliconhills {
-    background-image: url("../images/siliconhills.png");
+    background-image: url("images/siliconhills.png");
     background-repeat: no-repeat;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
