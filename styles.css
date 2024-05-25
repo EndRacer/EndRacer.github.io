@@ -11,7 +11,7 @@ ul {
     list-style-type: none;
     text-align: center;
 }
-il {
+header li {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background: rgb(179, 179, 179);
     color:whitesmoke;
@@ -19,7 +19,7 @@ il {
     display: inline;
     border-radius: 100px;
 }
-il:hover {
+header li:hover {
     background: rgb(206, 206, 206);
 }
 li {
@@ -31,7 +31,7 @@ li {
     padding: 100px 130px;
 }
 .logo1 {
-    position: absolute; top: 150px;  left: 900px;
+    position: absolute; top: 150px;  right: 150px;
     background-image: url("images/box.png");
     box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
     background-size: 250px;
@@ -47,13 +47,41 @@ li {
 .siliconhills {
     background-image: url("images/siliconhills.png");
     background-repeat: no-repeat;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+    border-radius: 25px;
     background-size: 100%;
-    height: 800px;
+    background-position: center;
+    height: 400px;
     width: 800px;
     text-indent: -99999px;
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
+}
+.aboutus {
+    background-image: url("images/aboutus.png");
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+    border-radius: 25px;
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+    width: 800px;
+    text-indent: -99999px;
+    display: block;
+    margin: 0 auto;
+}
+.support {
+    background-image: url("images/support.jpg");
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+    border-radius: 25px;
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+    width: 800px;
+    text-indent: -99999px;
+    display: block;
+    margin: 0 auto;
 }
 /*Search Bar*/
 .search-container {
