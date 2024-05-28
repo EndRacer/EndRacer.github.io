@@ -44,6 +44,9 @@ li {
 .quote2 {
     padding: 0px 130px;
 }
+.quote3 {
+    padding: 100px 0px 0px 130px;
+}
 .siliconhills {
     background-image: url("images/siliconhills.png");
     background-repeat: no-repeat;
@@ -120,3 +123,24 @@ button:hover {
     margin-bottom: 8px;
 }
 /*Search Bar*/
+.gallery {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 120px;
+    justify-content: space-between; /* <---- DOES NOT DO ANYTHING - ChatGPT 4o: "Optional: Ensure even spacing if needed" */
+}
+.gallery figure {
+    margin: 0; /* Remove default margin from figure elements */
+}
+.gallery figure img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    height: 150px;
+    width: 225px;
+    margin: 0 10px;
+}
+.gallery figcaption {
+    background-color: rgb(179, 179, 179);
+    display: inline-flex;
+    padding-left: 15px;
+}
