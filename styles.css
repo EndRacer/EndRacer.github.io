@@ -5,6 +5,9 @@ body {
     margin: 0px;
     padding: 0px;
 }
+header h1 {
+    color: rgb(84, 188, 177);
+}
 ul {
     margin: 0;
     padding: 0;
@@ -13,19 +16,23 @@ ul {
 }
 header li {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background: rgb(179, 179, 179);
+    background: rgb(84, 188, 177);
     color:whitesmoke;
     padding: 8px 15px;
     display: inline;
     border-radius: 100px;
 }
 header li:hover {
-    background: rgb(206, 206, 206);
+    background: rgb(70, 204, 191);
 }
 li {
     display:inline;
     padding: 20px 30px;
     margin: 0;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
 }
 .quote1 {
     padding: 100px 130px;
@@ -101,18 +108,18 @@ input[type="text"] {
     flex-grow: 1;
 }
 
-button {
+header div button {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 8px 16px;
     border: none;
     border-radius: 100px;
-    background-color: rgb(146, 144, 144);
+    background-color: rgb(84, 188, 177);
     color: #fff;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: rgb(180, 180, 180);
+header div button:hover {
+    background-color: rgb(70, 204, 191);
 }
 
 #searchResults {
